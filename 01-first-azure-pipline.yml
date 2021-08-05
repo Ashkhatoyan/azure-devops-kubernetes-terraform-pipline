@@ -27,7 +27,6 @@ steps:
 
 - job:Job2
 
-  steps:
 - script: echo job2 Hello, world changed!
   displayName: 'Run a one-line script'
 
