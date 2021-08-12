@@ -17,7 +17,7 @@ stages:
     - bash: echo Build SecondtJob
 - stage: DevDeploy
   variables:
-    environment: Dev
+    environment: QA
   dependsOn: Build
   jobs:
   - job: DevDeployJob
