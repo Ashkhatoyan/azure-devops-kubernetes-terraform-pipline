@@ -13,7 +13,7 @@ stages:
     - bash: echo Build FirstJob
     - bash: echo $(PiplineLevelVriable)
     - bash: echo $(Build.BuildNumber)
-    - bash: echo $(Buld.BuildId)
+    - bash: echo $(Build.BuildId)
     - bash: echo $(Build.SourceBranchName)
     - bash: echo $(Build.SourceDirectory)
     - bash: echo $(System.DefaultWorkingDirectory)
