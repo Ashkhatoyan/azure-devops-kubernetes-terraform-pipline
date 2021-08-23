@@ -32,6 +32,8 @@ stages:
       runOnce:
         deploy:
           steps:
-          - script: echo deploy to QA
+          - script:
+             echo deploy to QA
+             echo new feature test
 
   displayName: 'Run a multi-line script'
